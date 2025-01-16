@@ -5,7 +5,7 @@ pipeline {
             agent {
                 docker {
                     image 'python:3.8-alpine3.16'
-                    args '-H tcp://docker:2375'
+                    args '-H tcp://docker:2376'
                 }
             }
             steps {
